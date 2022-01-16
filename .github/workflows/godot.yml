@@ -19,4 +19,4 @@ jobs:
           chmod +x ./Godot_v3.4.2-stable_linux_server.64
       - name: Godot Version
         run: |
-          Godot_v3.4.2-stable_linux_server.64 -v -q
+          ./Godot_v3.4.2-stable_linux_server.64 -v -q
